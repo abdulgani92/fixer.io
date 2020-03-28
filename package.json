@@ -1,0 +1,22 @@
+{
+  "name": "fixer.io",
+  "version": "1.0.3",
+  "description": "fixer.io is currency exchange rates provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fixer.io",
+    "currency",
+    "api",
+    "exchange",
+    "rates",
+    "170 + worlds currency"
+  ],
+  "author": "Abdul Gani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
