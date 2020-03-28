@@ -7,7 +7,7 @@ Powered by 15+ exchange rate data sources, the Fixer API is capable of deliverin
 Using npm:
 
 ```bash
-npm install axios
+npm install fixer.io
 ```
 
 ## Example
