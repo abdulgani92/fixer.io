@@ -1,21 +1,25 @@
-Fixer API
+#Fixer Api
+
 Powered by 15+ exchange rate data sources, the Fixer API is capable of delivering real-time exchange rate data for 170 world currencies. 
 
-Installing
+##Installing
 
 Using npm:
-$ npm install axios
 
-Example
+```bash
+npm install axios
+```
 
-API KEY
+##Example
+
+####API KEY
 
 To get your free api key, register on the following website https://fixer.io/product
 
-Current Exchange Rates
+####Current Exchange Rates
 
+```javascript
 const fixer = require('fixer.io');
-
 const FIXER_API_KEY = ‘REPLACE_WITH_YOUR_FIXER_API_KEY’
 
 (async ()=>{
@@ -26,7 +30,7 @@ const FIXER_API_KEY = ‘REPLACE_WITH_YOUR_FIXER_API_KEY’
         console.log(error);
     }
 })();
-
+```
 
 For more details visit : https://fixer.io 
 
